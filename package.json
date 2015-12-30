@@ -1,0 +1,19 @@
+{
+  "name": "babel-node-on-heroku",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ."
+  },
+  "author": "Yuhei Yasuda <yuhei.yasuda1003@gmail.com> (http://yhey.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}
